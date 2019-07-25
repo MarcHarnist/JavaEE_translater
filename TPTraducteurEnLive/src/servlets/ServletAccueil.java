@@ -1,7 +1,6 @@
 package servlets;
 
 import java.io.IOException;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -45,5 +44,4 @@ public class ServletAccueil extends HttpServlet {
 		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/jsp/traducteur.jsp");
 		rd.forward(request, response);
 	}
-
 }
